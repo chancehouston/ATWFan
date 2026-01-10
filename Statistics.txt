@@ -1,0 +1,102 @@
+Adam The Woo - On This Day
+
+Catalog Statistics
+
+Total videos: 4628
+Earliest published: 2009-04-08 03:27:50Z
+Latest published:   2025-12-21 14:15:40Z
+
+Top years:
+  2013: 439
+  2014: 433
+  2015: 424
+  2016: 386
+  2024: 366
+Most active year: 2013 (439 videos)
+Least active year: 2009 (2 videos)
+
+Top months (aggregated across years):
+  July: 426
+  August: 412
+  May: 411
+  September: 396
+  March: 392
+  June: 386
+  October: 379
+  January: 376
+  April: 374
+  December: 371
+  November: 364
+  February: 341
+Most active month: July (426)
+Least active month: February (341)
+
+Top days of month (1-31 aggregated across months):
+  14: 164
+  18: 160
+  7: 157
+  5: 156
+  17: 156
+  21: 155
+  16: 155
+  1: 155
+  6: 154
+  3: 154
+Most active day of month: 14 (164)
+Least active day of month: 31 (91)
+
+Top specific dates (MM-DD):
+  02-27: 18
+  07-02: 18
+  05-14: 17
+  05-23: 17
+  11-14: 17
+  08-31: 17
+  06-03: 16
+  06-05: 16
+  08-14: 16
+  07-11: 16
+Most active specific date: 02-27 (18)
+
+Activity by weekday:
+  Friday: 691
+  Saturday: 674
+  Sunday: 663
+  Monday: 661
+  Wednesday: 654
+  Thursday: 649
+  Tuesday: 636
+Busiest weekday: Friday (691)
+
+Activity by hour (0-23):
+  06:00 - 745
+  07:00 - 718
+  08:00 - 572
+  05:00 - 548
+  09:00 - 429
+  10:00 - 310
+  11:00 - 249
+  04:00 - 207
+  12:00 - 198
+  13:00 - 144
+  14:00 - 104
+  03:00 - 61
+  17:00 - 51
+  19:00 - 47
+  16:00 - 45
+  15:00 - 42
+  21:00 - 34
+  20:00 - 33
+  18:00 - 26
+  22:00 - 21
+  00:00 - 15
+  23:00 - 11
+  02:00 - 10
+  01:00 - 8
+Most common hour: 06:00 (745)
+
+Top sources (files):
+  TheDailyWoo: 4232
+  AdamTheWoo: 396
+
+Average videos per year: 272.24
