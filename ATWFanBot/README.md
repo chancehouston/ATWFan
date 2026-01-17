@@ -1,4 +1,4 @@
-# ATWFanBot
+﻿# ATWFanBot
 
 Automated daily Reddit posting bot for r/AdamTheWoo. Posts "On This Day" content from historical videos at 9:00 AM Eastern Time daily.
 

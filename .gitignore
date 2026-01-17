@@ -4,3 +4,71 @@
 
 /.vs
 /ATWFanBot/.vs
+
+################################################################################
+# Root .gitignore configured for Visual Studio / .NET projects
+################################################################################
+
+# Visual Studio / .NET
+.vs/
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.meta
+*.obj
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+
+# IDEs
+.idea/            # Rider
+.vscode/          # VS Code
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Logs and test results
+*.log
+Logs/
+TestResults/
+
+# Publish and deployment
+*.publishsettings
+*.pubxml
+
+# Secrets and sensitive data
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+secrets.json
+*.pfx
+*.key
+
+# Post history (contains execution data)
+PostHistory.json
+
+# Coverage
+*.coverage
+*.coveragexml
+coverage*.xml
+
+# IIS Express
+IISExpress/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

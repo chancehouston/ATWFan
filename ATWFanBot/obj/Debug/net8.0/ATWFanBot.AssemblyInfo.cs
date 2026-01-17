@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("atwfanbot-secrets")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ATWFanBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afc8c5c06125017cc301ac928e0cce51833809b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5e9ce44ac0147cb80abd7b67aacdc9ffe7aaa05")]
 [assembly: System.Reflection.AssemblyProductAttribute("ATWFanBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ATWFanBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
