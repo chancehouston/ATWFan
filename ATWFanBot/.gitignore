@@ -1,0 +1,42 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+Logs/
+
+# Secrets and sensitive data
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+*.pfx
+*.key
+
+# Post history (contains execution data)
+PostHistory.json
+
+# User secrets
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
