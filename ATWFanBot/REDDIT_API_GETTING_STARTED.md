@@ -1,4 +1,4 @@
-# Reddit API Quick Start Guide for Script Apps
+﻿# Reddit API Quick Start Guide for Script Apps
 
 Comprehensive guide for using Reddit's API with script-type applications using the OAuth2 password grant flow.
 
