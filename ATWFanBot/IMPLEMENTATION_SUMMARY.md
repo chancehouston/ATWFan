@@ -1,4 +1,4 @@
-# ATWFanBot Implementation Summary
+﻿# ATWFanBot Implementation Summary
 
 ## Implementation Complete ✅
 

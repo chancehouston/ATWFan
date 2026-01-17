@@ -18,8 +18,7 @@ class Program
             .AddUserSecrets<Program>(optional: true)
             .Build();
 
-        var settings = new AppSettings();
-        configuration.Bind(settings);
+        var settings = configuration.Get<AppSettings>();
 
         // Load secrets from environment variables
         var secrets = Secrets.LoadFromEnvironment();
@@ -111,7 +110,7 @@ class Program
 
             // Initialize services
             var redditClient = new RedditApiClient(settings.Reddit, secrets);
-            var contentProvider = new DailyFileContentProvider(settings.Posting);
+            var contentProvider = new DailyFileContentProvider(settings);
             var historyManager = new PostHistoryManager(settings.Posting);
             var emailService = new EmailNotificationService(settings.Email, secrets);
             var postingService = new PostingService(
