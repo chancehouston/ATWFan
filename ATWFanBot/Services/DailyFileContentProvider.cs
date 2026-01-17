@@ -5,9 +5,9 @@ namespace ATWFanBot.Services;
 
 public class DailyFileContentProvider
 {
-    private readonly PostingSettings _settings;
+    private readonly AppSettings _settings;
 
-    public DailyFileContentProvider(PostingSettings settings)
+    public DailyFileContentProvider(AppSettings settings)
     {
         _settings = settings;
     }
@@ -20,7 +20,7 @@ public class DailyFileContentProvider
         var daySuffix = GetDaySuffix(dayNumber);
 
         // Expand environment variables in path
-        var dailyPath = Environment.ExpandEnvironmentVariables(_settings.DailyFolderPath);
+        var dailyPath = Environment.ExpandEnvironmentVariables(_settings.Posting.DailyFolderPath);
 
         var fileName = $"{dateStr}.txt";
         var filePath = Path.Combine(dailyPath, fileName);
@@ -42,7 +42,7 @@ public class DailyFileContentProvider
                 $"Daily content file is empty: {filePath}");
         }
 
-        var title = string.Format(_settings.PostTitleTemplate,
+        var title = string.Format(_settings.Reddit.PostTitleTemplate,
             $"{monthName} {dayNumber}{daySuffix}");
 
         Log.Information("Loaded daily content. Title: {Title}, Body length: {BodyLength} characters",
@@ -65,7 +65,7 @@ public class DailyFileContentProvider
     public void ValidateDailyFile(DateTime date)
     {
         var dateStr = date.ToString("MM-dd");
-        var dailyPath = Environment.ExpandEnvironmentVariables(_settings.DailyFolderPath);
+        var dailyPath = Environment.ExpandEnvironmentVariables(_settings.Posting.DailyFolderPath);
         var fileName = $"{dateStr}.txt";
         var filePath = Path.Combine(dailyPath, fileName);
 
@@ -100,7 +100,7 @@ public class DailyFileContentProvider
 
     public List<string> ValidateAllDailyFiles()
     {
-        var dailyPath = Environment.ExpandEnvironmentVariables(_settings.DailyFolderPath);
+        var dailyPath = Environment.ExpandEnvironmentVariables(_settings.Posting.DailyFolderPath);
         var errors = new List<string>();
 
         if (!Directory.Exists(dailyPath))
